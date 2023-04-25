@@ -23,9 +23,7 @@ public class IntegradorController {
         carta.put(1, new Plato(1,"Pizza",230D,"Masa con salsa y queso"));
         carta.put(2, new Plato(2,"Malfattis",450D,"Bolitas de masa tipo nhoquis"));
         carta.put(3, new Plato(3,"Fideos",400D,"Fideos con salsa"));
-        
-        
-        
+             
         return carta.get(id);
     }
     
